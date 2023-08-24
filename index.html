@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>Layout Rocks</title>
+    <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+
+  <body>
+    <header id="header">
+      <h1 class="site-title">
+        <a href="index.html"><img src="img/logo.svg" alt="Layout Rocks"></a>
+      </h1>
+
+      <nav id="navi">
+        <ul class="nav-menu">
+          <li><a href="#project">制作事例をご紹介</a></li>
+          <li><a href="#flow">サービス</a></li>          
+        </ul>
+        <ul class="nav-sns">
+          <li><a href="https://www.instagram.com/aquarossi46/" target="_blank"><img src="img/instagaram.png" alt=""><br>insatagram</a></li>
+        </ul>
+      </nav>
+
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div id="mask"></div>
+    </header>
+
+    <div class="container">
+      <main>
+        <div id="video">
+          <video class="bg-video" src="video/video.mp4" loop autoplay muted playsinline></video>
+        </div>
+
+        <section id="project">
+          <div class="wrapper">
+            <h2 class="sec-title">制作事例をご紹介</h2>
+            <ul class="list">
+              <li>
+                <a href="#">
+                  <img src="img/project1.jpg" alt="">
+                  <p class="name">PROJECT_01</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/project2.jpg" alt="">
+                  <p class="name">PROJECT_02</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/project3.jpg" alt="">
+                  <p class="name">PROJECT_03</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="feature">
+          <div class="wrapper">
+            <h2 class="sec-title">Layout Rocks</h2>
+            <ul class="list">
+              <li>
+                <a href="#">design</a>
+                <p class="title">デザイン</p>
+                <p>テキストテキストテキスト</p>
+              </li>
+              <li>
+                <a href="#">support</a>
+                <p class="title">サポート</p>
+                <p>テキストテキストテキスト</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="flow">
+          <div class="wrapper">
+            <h2 class="sec-title">Layout Rocksができるまでの流れ</h2>
+            <p>お問い合わせいただいてから、レイアウトロックが完成するまでの流れです。</p>
+
+            <div class="step">
+              <ol class="figure">
+                <li>1.ヒアリング</li>
+                <li>2.プラン提案</li>
+                <li>3.契約</li>
+                <li>4.制作開始</li>
+                <li>5.完成</li>
+              </ol>
+
+              <dl class="description">
+                <dt><span>1</span>ヒアリング</dt>
+                <dd>
+                  テキストテキストテキストテキストテキストテキスト
+                  テキストテキストテキストテキストテキストテキスト
+                </dd>
+                <dt><span>2</span>プラン提案</dt>
+                <dd>
+                  テキストテキストテキストテキストテキストテキスト
+                  テキストテキストテキストテキストテキストテキスト
+                </dd>
+                <dt><span>3</span>契約</dt>
+                <dd>
+                  テキストテキストテキストテキストテキストテキスト
+                  テキストテキストテキストテキストテキストテキスト
+                </dd>
+                <dt><span>4</span>制作開始</dt>
+                <dd>
+                  テキストテキストテキストテキストテキストテキスト
+                  テキストテキストテキストテキストテキストテキスト
+                </dd>
+                <dt><span>5</span>完成</dt>
+                <dd>
+                  テキストテキストテキストテキストテキストテキスト
+                  テキストテキストテキストテキストテキストテキスト
+                </dd>
+              </dl>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact">
+          <div class="wrapper">
+            <h2 class="sec-title">お問い合わせ</h2>
+            <p>お問い合わせはメールまたはinstagramからお願いいたします。</p>
+            <div class="link">
+              <a class="item" href="mailto:tsubasacrf@icloud.com">
+                <img src="img/mail.png" alt=""><br>メール
+              </a>
+              <a class="item" href="https://www.instagram.com/aquarossi46/">
+                <img src="img/instagaram.png" alt=""><br>instagram
+              </a>             
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer id="footer">
+        <a id="to-top" href="#"></a>
+
+        <ul class="menu">
+          <li><a href="#project">制作事例をご紹介</a></li>
+          <li><a href="#flow">サービス</a></li>          
+        </ul>
+        <p class="copyright">Copyright &copy; 2023 Layout Rocks All Rights Reserved.</p>
+      </footer>
+    </div>
+  </body>
+
+</html>
